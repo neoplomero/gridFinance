@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-wmsyo6');
-	src:url('fonts/icomoon.eot?#iefix-wmsyo6') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-wmsyo6') format('woff'),
-		url('fonts/icomoon.ttf?-wmsyo6') format('truetype'),
-		url('fonts/icomoon.svg?-wmsyo6#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?-4vpoqh');
+	src:url('fonts/icomoon.eot?#iefix-4vpoqh') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-4vpoqh') format('woff'),
+		url('fonts/icomoon.ttf?-4vpoqh') format('truetype'),
+		url('fonts/icomoon.svg?-4vpoqh#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -26,6 +26,18 @@
 .icon-search:before {
 	content: "\e603";
 }
+.icon-backward:before {
+	content: "\e606";
+}
+.icon-forward:before {
+	content: "\e607";
+}
+.icon-first:before {
+	content: "\e608";
+}
+.icon-last:before {
+	content: "\e609";
+}
 .icon-facebook:before {
 	content: "\e600";
 }
@@ -35,17 +47,14 @@
 .icon-linkedin:before {
 	content: "\e602";
 }
+.icon-arrow-left:before {
+	content: "\e604";
+}
+.icon-arrow-right:before {
+	content: "\e605";
+}
 
 
-.icon-facebook:before {
-	content: "\e600";
-}
-.icon-twitter:before {
-	content: "\e601";
-}
-.icon-linkedin:before {
-	content: "\e602";
-}
 h3{
 	color:#18a195;
 	font-size: 1.2em;
@@ -329,17 +338,12 @@ figcaption ul li a:hover{
 
 /*Search Options Dropdown in projects*/
 
-.searchOption-Container
-{
-	margin: 0;
-	padding: 0;
-	height: 3em;
-}
 .searchOption-Dropdown
 {
-	
 	height: 3em;
+	margin: 0;
 	padding: 0;
+	
 
 }
 .searchOption
@@ -359,7 +363,8 @@ figcaption ul li a:hover{
 .searchResult
 {
 	
-	margin: 0.5em 1em;
+	margin: 1em 1em;
+	
 }
 
 .projectThumbnail-Gallery{
@@ -378,20 +383,92 @@ figcaption ul li a:hover{
 
 .projectThumbnail{
 	border: solid 1px #d9d8d5;
-	height: 100%;
 	width: 95%;
-	text-align: center;
+	padding-top: 1em;
 	cursor: pointer;
-	padding-top: 0.7em;
 	margin: auto;
 }
 .thumbnail
 {
+	border: none;
 	width: 240px;
 	height: auto;
-	border:solid 1px red;
-	margin: 1em auto;
+	margin: 1em auto 0.5em auto;
 }
+.projectThumbnail figcaption
+{
+	margin: 0.5em 1.6em;
+	text-align: justify;
+}
+.title
+{
+	margin-left: 1.3em;
+	font-size: 1.3em;
+	
+}
+.projectNumbers
+{
+	height: 92px;
+	background-color: #064466;
+	text-align: center; 
+}
+.projectNumbers img
+{
+	width: 240px;
+	margin-top: 1.5em;
+	margin-bottom: 1em; 
+}
+.projectNumbers p
+{
+	color: white;
+}
+.amount{
+	float: left;
+	margin-left: 1.3em;
+}
+.raised
+{
+	float: right;
+
+}
+.paginat
+{
+	width: 200px;	
+	margin: 2.5em auto ;
+
+
+}
+
+.paginat a
+{ 
+	color: white;
+}
+ .paginat .paginatNumber a
+{
+	color: #414141;
+}
+
+.paginatArrow, .paginatNumber 
+{
+	background-color: #e26d7e; 
+	padding: 0.5em 1em;
+	display: inline;
+	
+	border-radius: 5px;
+
+}
+.paginatNumber
+{
+	background-color: #edece8;
+
+}
+.paginat a .paginateNumber 
+{
+	color: #414141;
+}
+
+
+
 
 
 
